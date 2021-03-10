@@ -13,7 +13,7 @@ class MainAdapter(private val data: List<Hewan>) : RecyclerView.Adapter<MainAdap
             latinTextView.text = hewan.namaLatin
             imageView.setImageResource(hewan.imageResId)
         }
-    }
+    } 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val inflater = LayoutInflater.from(parent.context)
