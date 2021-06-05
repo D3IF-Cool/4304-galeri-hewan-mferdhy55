@@ -1,4 +1,4 @@
-package org.d3if4041.galerihewan
+package org.d3if4041.galerihewan.ui.main
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,6 +8,8 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.RecyclerView
+import org.d3if4041.galerihewan.databinding.FragmentMainBinding
+import org.d3if4041.galerihewan.network.ApiStatus
 
 class MainFragment : Fragment() {
     private val viewModel: MainViewModel by lazy {

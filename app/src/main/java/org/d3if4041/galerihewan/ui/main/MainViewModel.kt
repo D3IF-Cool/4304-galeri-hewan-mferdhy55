@@ -1,4 +1,4 @@
-package org.d3if4041.galerihewan
+package org.d3if4041.galerihewan.ui.main
 
 import android.util.Log
 import androidx.lifecycle.LiveData
@@ -6,6 +6,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.launch
+import org.d3if4041.galerihewan.Hewan
 import org.d3if4041.galerihewan.network.ApiStatus
 import org.d3if4041.galerihewan.network.HewanApi
 

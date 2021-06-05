@@ -1,9 +1,11 @@
-package org.d3if4041.galerihewan
+package org.d3if4041.galerihewan.ui.main
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import org.d3if4041.galerihewan.Hewan
+import org.d3if4041.galerihewan.R
 import org.d3if4041.galerihewan.databinding.ListItemBinding
 import org.d3if4041.galerihewan.network.HewanApi
 
