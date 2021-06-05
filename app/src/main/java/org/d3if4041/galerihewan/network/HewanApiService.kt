@@ -4,7 +4,6 @@ import com.squareup.moshi.Moshi
 import org.d3if4041.galerihewan.Hewan
 import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
-import retrofit2.converter.scalars.ScalarsConverterFactory
 import retrofit2.http.GET
 
 private const val BASE_URL = "https://dif.indraazimi.com/"
@@ -27,4 +26,5 @@ object HewanApi {
     val service: HewanApiService by lazy {
         retrofit.create(HewanApiService::class.java)
     }
+    fun getHewanUrl(nama: String): String {return BASE_URL + "hewan/$nama.jpg"}
 }

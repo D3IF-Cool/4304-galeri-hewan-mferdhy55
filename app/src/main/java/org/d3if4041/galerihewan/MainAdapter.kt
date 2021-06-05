@@ -3,7 +3,9 @@ package org.d3if4041.galerihewan
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 import org.d3if4041.galerihewan.databinding.ListItemBinding
+import org.d3if4041.galerihewan.network.HewanApi
 
 class MainAdapter : RecyclerView.Adapter<MainAdapter.ViewHolder>() {
 
